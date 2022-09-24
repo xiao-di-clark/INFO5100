@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="alignmentX" type="float" value="0.7"/>
+    <Property name="alignmentY" type="float" value="0.7"/>
+    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+      <Font name="Tahoma" size="14" style="0"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[896, 849]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jTelephone" min="-2" pref="59" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jEmail" alignment="0" pref="60" max="32767" attributes="0"/>
+                              <Component id="jAge" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTxtEmail" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jTxtAge" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTxtTelephone" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLastName" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="jDOB" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jFirstName" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTxtDOB" min="-2" pref="78" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jTxtFirstName" alignment="0" pref="78" max="32767" attributes="0"/>
+                              <Component id="jTxtLastName" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jAffiliation" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jMajor" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="jCountry" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTxtMajor" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTxtCountry" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTxtAffiliation" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jStreetLine2" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jStreetLine1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jCity" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTxtCity" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jTxtStreetLine1" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jTxtStreetLine2" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="375" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jDegree1" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <Component id="jCareer" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="jDegree1Start" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="53" pref="53" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTxtDegree1Start" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTxtCareer" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTxtDegree1" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jDegree2" alignment="1" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="jDegree2Start" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jDegree2End" min="-2" pref="83" max="-2" attributes="0"/>
+                                      <Component id="jDegree1End" min="-2" pref="96" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTxtDegree2Start" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTxtDegree1End" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="jTxtDegree2" alignment="0" min="-2" pref="78" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jTxtDegree2End" min="-2" pref="78" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jPhoto" min="-2" pref="83" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lbl_img" min="-2" pref="115" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnImage" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="211" max="-2" attributes="0"/>
+              <Component id="jSaveButton" min="-2" pref="121" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTxtDOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jDOB" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTelephone" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtTelephone" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTxtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jStreetLine1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtStreetLine1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jCareer" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtCareer" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jDegree1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDegree1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTxtDegree1Start" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jDegree1Start" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jDegree1End" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDegree1End" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jDegree2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDegree2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTxtDegree2Start" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jDegree2Start" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jDegree2End" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTxtDegree2End" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jStreetLine2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtStreetLine2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPhoto" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTxtCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtCountry" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jAffiliation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTxtAffiliation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTxtMajor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jMajor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Component id="btnImage" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lbl_img" min="-2" pref="167" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="305" max="32767" attributes="0"/>
+              <Component id="jSaveButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="User Profile"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[65, 14]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jFirstName">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="First Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtFirstName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtFirstNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLastName">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Last Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtLastName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDOB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="DOB"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDOB">
+    </Component>
+    <Component class="javax.swing.JButton" name="jSaveButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jSaveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtEmail">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jAge">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Age"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtAge">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtAgeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jTelephone">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Telephone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtTelephone">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jEmail">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtCity">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jMajor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Major"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jStreetLine1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Street Line 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtMajor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtStreetLine1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtStreetLine1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCountry">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Country"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jStreetLine2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Street Line 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtCountry">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtCountryActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtStreetLine2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jAffiliation">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Affiliation"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCity">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtAffiliation">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDegree1Start">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDegree2Start">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Degree 2 Start"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jCareer">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Career"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDegree2End">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Degree 2 End"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDegree2Start">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDegree2End">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtDegree2EndActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtCareer">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtCareerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDegree1End">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Degree 1 End"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDegree1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Degree 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDegree1End">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtDegree1EndActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDegree1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDegree2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Degree 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jDegree1Start">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Degree 1 Start"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDegree2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jPhoto">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="Photo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_img">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnImage">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="choose"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnImageMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImageActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
